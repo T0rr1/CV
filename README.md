@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-You can use the [editor on GitHub](https://github.com/T0rr1/CV/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <meta charset="utf-8">
+  <title>Daniel Torrijos</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="favicon.ico" type="image/gif">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+    <h1>I'm Daniel.</h1>
+    <h2>a <span class="pro">web</span> developer in progress.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+    <img src="images/mountain.png" alt="mountain-image">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <h2>Hello!</h2>
+      <img class="pro_pic" src="images/daniel copy.JPG" alt="profile-pic" height="200" width="150">
+      <p class="desc"> Professional in Industrial Engineering of the University of Los Andes with a master’s degree from the University of Surrey on Entrepreneurship. Passionate about technology, innovation and self-development. Able to work under
+        pressure and with the ability to work in teams and for results. <br /> Proper management of interpersonal relationships and adaptability to change. Always eager and open to learning new skills for improving and growing as a person. I’m recursive, responsible,
+        honest and dynamic.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="sk1" src="images/ux.png" alt="webpage-pic">
+        <h3>Web Development</h3>
+        <p class="webd">I'm currently learning all the different layers for creating stunning webpages and understanding JavaScript</p>
+      </div>
+      <div class="skill-row">
+        <img class="sk2" src="images/falafel.png" alt="falafel-pic">
+        <h3>Falafel Maker</h3>
+        <p class="fmd">Yes you hear that right! I'm going to make delicious falafel with hummus. Come have a taste!</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Stay in the Know!</h3>
+      <p>If you would like to contact me follow the link below :)</p>
+      <a class="butn" href="mailto:df.torrijos@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="foot">© 2018 Daniel Torrijos.</p>
+  </div>
+</body>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/T0rr1/CV/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
