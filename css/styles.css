@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 2;
+  color: #40514E;
+
+}
+
+hr {
+  color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 7px;
+  width: 5%;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 2.6rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px auto;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.pro_pic {
+  width:13%;
+  height: auto;
+  padding-top: 5%;
+  border-radius: 30%;
+  opacity: 0.9;
+  float: left;
+  margin-left: 100px;
+}
+
+.skill-row {
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.sk1 {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.sk2 {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+.webd {
+  clear: left;
+}
+
+.fmd {
+  clear: right;
+}
+
+.desc {
+  width: 50%;
+  margin: auto;
+
+}
+
+.butn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif, monospace;
+  margin: 20px;
+}
+
+.foot {
+  color: #ffffff;
+  font-size: 12px;
+  padding: 20px;
+  margin: 0;
+}
+.profile{
+  width: 70%;
+  margin: 100px auto;
+}
